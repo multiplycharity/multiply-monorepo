@@ -1,0 +1,23 @@
+{
+  "name": "multiply",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Amir <amiromayer@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/truffle",
+      "**/truffle/**"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
