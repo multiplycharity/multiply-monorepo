@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "AVA Cash Wallet",
+    "slug": "avacashwallet",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "scheme": "avacash",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.amir.Avacash"
+    },
+    "notification": {
+      "iosDisplayInForeground": true
+    },
+    "description": "AVA Cash Wallet"
+  }
+}
