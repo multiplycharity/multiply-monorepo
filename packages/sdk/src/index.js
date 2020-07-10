@@ -1,5 +1,8 @@
+import { ethers } from 'ethers'
+import { register, login, extractPrivateKeyFromSession } from './accounts'
+
 export default class WalletSDK {
-  constructor ({ apiHost = `` }) {
+  constructor ({ apiHost = 'http://localhost:5050' }) {
     this.apiHost = apiHost
   }
 
